@@ -13,12 +13,15 @@ category: concepts
 area: 小说
 topic: AI辅助创作
 related:
-  - [["大纲写作"]]
-  - [["创作方法论"]]
-  - [["LLM-Wiki概念"]]
-  - [["人物塑造"]]
+  - [[大纲写作]]
+  - [[创作方法论]]
+  - [[LLM-Wiki概念]]
+  - [[人物塑造]]
 created: 2025-05-13
 updated: 2025-05-13
+type: concept
+source_ref: "../../raw/AI辅助创作.md"
+source_hash: "86d74dcbaaa1"
 ---
 
 # AI辅助创作

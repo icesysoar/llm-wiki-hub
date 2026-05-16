@@ -11,6 +11,9 @@ related:
   - [[创作自检清单]]
 created: 2026-05-13
 updated: 2026-05-13
+type: concept
+source_ref: "../../raw/AI文章润色.md"
+source_hash: "035ffe27580f"
 ---
 
 # AI文章润色

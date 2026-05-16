@@ -9,6 +9,10 @@ source_type: prompt
 quality_score: 75
 importance: medium
 created: 2025-02-24
+sorted: true
+target: 小说知识库
+sorted_date: 2026-05-16
+content_hash: "34830fa59046"
 ---
 
 奇域 ai+kimi 儿童绘本创作者（5 分钟做

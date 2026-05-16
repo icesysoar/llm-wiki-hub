@@ -1,7 +1,7 @@
 ---
 title: 全局索引
 tags: [索引, hub]
-created: {{YYYY-MM-DD}}
+created: 2025-05-16
 updated: 2025-05-16
 ---
 

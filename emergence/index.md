@@ -1,8 +1,8 @@
 ---
 title: 涌现笔记索引
 tags: [索引, emergence]
-created: {{YYYY-MM-DD}}
-updated: {{YYYY-MM-DD}}
+created: 2025-05-16
+updated: 2025-05-16
 ---
 
 # 涌现笔记索引

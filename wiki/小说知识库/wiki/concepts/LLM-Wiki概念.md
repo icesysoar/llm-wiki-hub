@@ -11,10 +11,13 @@ category: concepts
 area: AI
 topic: 知识库架构
 related:
-  - [["小说三要素"]]
-  - [["人物塑造"]]
+  - [[小说三要素]]
+  - [[人物塑造]]
 created: 2025-05-13
 updated: 2025-05-13
+type: concept
+source_ref: "../../raw/LLM-Wiki概念.md"
+source_hash: "137dda9946a6"
 ---
 
 # LLM-Wiki概念

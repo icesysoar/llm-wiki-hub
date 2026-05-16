@@ -60,11 +60,18 @@
   "aliases": {
     "create-sub": ["创建子库", "新建子库"],
     "compile": ["编译"],
+    "compile-all": ["全部编译"],
     "emerge": ["涌现"],
     "query": ["查询"],
     "list-subs": ["子库列表"],
     "sort-raw": ["分拣raw"],
     "hub-health": ["大库健康"],
+    "edit-rule": ["编辑规则"],
+    "undo": ["撤销"],
+    "health": ["健康"],
+    "compare": ["对比"],
+    "lint": ["检查"],
+    "promote-emergence": ["提升涌现"],
     "help": ["帮助"],
     "auto-fix": ["自动修复"]
   }

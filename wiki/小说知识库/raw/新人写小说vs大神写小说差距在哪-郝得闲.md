@@ -10,6 +10,10 @@ source: Bilibili - 郝得闲
 quality_score: 85
 importance: high
 created: 2025-12-15
+sorted: true
+target: 小说知识库
+sorted_date: 2026-05-16
+content_hash: "4e6a4967173a"
 ---
 
 # 新人写小说 vs 大神写小说，差距在哪？
