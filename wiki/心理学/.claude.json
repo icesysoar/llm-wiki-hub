@@ -1,0 +1,16 @@
+{
+  "project": {
+    "name": "心理学",
+    "parent_hub": "Soara知识库",
+    "description": "心理学相关知识库",
+    "version": "4.2"
+  },
+  "current_user": "default",
+  "inherit": {
+    "rules_from": "../../rules/",
+    "thresholds": true,
+    "split_thresholds": true
+  },
+  "area": "心理学",
+  "created": "2025-05-16"
+}

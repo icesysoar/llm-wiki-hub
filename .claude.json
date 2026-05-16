@@ -1,0 +1,71 @@
+{
+  "project": {
+    "name": "Soara知识库",
+    "version": "4.2",
+    "mode": "hub"
+  },
+  "current_user": "default",
+  "settings": {
+    "inbox": {
+      "auto_sort": true,
+      "max_files_warning": 50,
+      "max_file_size_mb": 10,
+      "large_file_action": "extract_text"
+    },
+    "trash": {
+      "auto_cleanup_days": 30
+    },
+    "index": {
+      "sort_by": "priority",
+      "priorities": {}
+    },
+    "rule_editing": {
+      "require_user_confirmation": true,
+      "auto_backup": true,
+      "protected_rules": ["hub.md"]
+    }
+  },
+  "split_thresholds": {
+    "max_lines": 300,
+    "max_links": 8,
+    "max_conclusions": 6,
+    "auto_split": true,
+    "hub_page_keep_ratio": 0.2,
+    "auto_sync_child_pages": false
+  },
+  "knowledge_artifacts": {
+    "extract_entities": true,
+    "min_entity_frequency": 3,
+    "auto_comparison_threshold": 0.7,
+    "save_queries_to_disk": true
+  },
+  "emergence": {
+    "enabled": true
+  },
+  "security": {
+    "protected_paths": [
+      "rules/",
+      ".claude.json",
+      "_system/_templates/",
+      "**/.claude.json",
+      "**/rules/local.md"
+    ],
+    "require_confirmation_for": [
+      "file_delete",
+      "file_overwrite",
+      "bulk_move"
+    ],
+    "audit_log": true
+  },
+  "aliases": {
+    "create-sub": ["创建子库", "新建子库"],
+    "compile": ["编译"],
+    "emerge": ["涌现"],
+    "query": ["查询"],
+    "list-subs": ["子库列表"],
+    "sort-raw": ["分拣raw"],
+    "hub-health": ["大库健康"],
+    "help": ["帮助"],
+    "auto-fix": ["自动修复"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "project": {
+    "name": "编程",
+    "parent_hub": "Soara知识库",
+    "description": "编程与计算机科学相关知识库",
+    "version": "4.2"
+  },
+  "inherit": {
+    "rules_from": "../../rules/",
+    "thresholds": true,
+    "split_thresholds": true
+  },
+  "area": "编程",
+  "created": "2025-05-16"
+}
