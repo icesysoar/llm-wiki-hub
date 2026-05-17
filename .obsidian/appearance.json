@@ -1,1 +1,7 @@
-{}
+{
+  "cssTheme": "Dark Moss",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Microsoft YaHei UI",
+  "textFontFamily": "Microsoft YaHei UI",
+  "monospaceFontFamily": "Microsoft JhengHei UI"
+}

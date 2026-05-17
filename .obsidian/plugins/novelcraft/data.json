@@ -1,0 +1,45 @@
+{
+  "apiKey": "",
+  "apiEndpoint": "https://api.openai.com/v1/chat/completions",
+  "model": "gpt-3.5-turbo",
+  "systemPrompt": "你是一位专业的小说作家，擅长根据上下文和人物设定续写故事。",
+  "styleTemperature": 0.5,
+  "narrativeDistance": 0.4,
+  "sensoryLevel": 0.6,
+  "styleNotes": "",
+  "bannedWords": [],
+  "sessions": [
+    {
+      "id": "mok6labiutjv",
+      "name": "对话 22:59",
+      "messages": [],
+      "lastActive": 1777474780542
+    },
+    {
+      "id": "mok6lue62x91",
+      "name": "对话 23:00",
+      "messages": [
+        {
+          "role": "user",
+          "content": "续写",
+          "id": "1777474809647"
+        },
+        {
+          "role": "user",
+          "content": "扩写",
+          "id": "1777474813755"
+        }
+      ],
+      "lastActive": 1777474813755
+    },
+    {
+      "id": "mok6m281hhh3",
+      "name": "对话 23:00",
+      "messages": [],
+      "lastActive": 1777474816705
+    }
+  ],
+  "activeSessionId": null,
+  "advancedMode": false,
+  "aiModelVariant": "delicate"
+}

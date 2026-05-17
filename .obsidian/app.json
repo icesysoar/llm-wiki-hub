@@ -1,1 +1,11 @@
-{}
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "hidden",
+  "livePreview": true,
+  "focusNewTab": true,
+  "defaultViewMode": "preview",
+  "showLineNumber": true,
+  "showInlineTitle": false,
+  "newFileLocation": "current"
+}

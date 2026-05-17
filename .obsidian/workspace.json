@@ -1,24 +1,34 @@
 {
   "main": {
-    "id": "dddd888f7b9c9eef",
+    "id": "d02d32fcebe3376e",
     "type": "split",
     "children": [
       {
-        "id": "5d30278e4f60589c",
+        "id": "b503ca99fe723f7e",
         "type": "tabs",
         "children": [
           {
-            "id": "7861f662867d3b2d",
+            "id": "3eb997983a7d0b8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGENTS.md",
-                "mode": "source",
-                "source": false
+                "file": "README.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "README"
             }
           }
         ]
@@ -27,15 +37,16 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b220c8d9c7fc32b7",
+    "id": "1367581b6b44a1aa",
     "type": "split",
     "children": [
       {
-        "id": "87b26702eaff8d72",
+        "id": "3f9eca28e98747ff",
         "type": "tabs",
+        "dimension": 57.47348119575699,
         "children": [
           {
-            "id": "46b33ff7b3ffd1bb",
+            "id": "501080e8668fa5b1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +59,7 @@
             }
           },
           {
-            "id": "c41a6e711a1610d8",
+            "id": "1dbd1b1e4d14890a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +76,7 @@
             }
           },
           {
-            "id": "0e9400e3fe7b8128",
+            "id": "f90ff770520c2c66",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,54 +86,69 @@
             }
           }
         ]
+      },
+      {
+        "id": "6c01b9c9e14388c2",
+        "type": "tabs",
+        "dimension": 42.52651880424301,
+        "children": [
+          {
+            "id": "d29a9f9bcf743660",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "README.md"
+              },
+              "icon": "lucide-info",
+              "title": "README的笔记属性"
+            }
+          },
+          {
+            "id": "62663a882e129bb3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 383.5
   },
   "right": {
-    "id": "23954c39fdde6858",
+    "id": "79e80c3da348bdbc",
     "type": "split",
     "children": [
       {
-        "id": "3725635d182c795e",
+        "id": "07583d1439c9d4a8",
         "type": "tabs",
         "children": [
           {
-            "id": "36dafb43af9ed4a4",
+            "id": "7ce78f075438c886",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "file": "AGENTS.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
+                "file": "README.md",
+                "followCursor": false,
                 "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "searchQuery": ""
               },
-              "icon": "links-coming-in",
-              "title": "AGENTS 的反向链接列表"
+              "icon": "lucide-list",
+              "title": "README 的大纲"
             }
           },
           {
-            "id": "49222962f532715d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "AGENTS.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "AGENTS 的出链列表"
-            }
-          },
-          {
-            "id": "def0b98e908fa936",
+            "id": "5252b037b44d8c85",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,91 +161,110 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "1313f8bbae038600",
+        "type": "tabs",
+        "children": [
           {
-            "id": "5c338509291802d7",
+            "id": "4c4e093ac6239f02",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
+              "type": "outgoing-link",
               "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "README.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
               },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
+              "icon": "links-going-out",
+              "title": "README 的出链列表"
             }
           },
           {
-            "id": "bb34cd83d247c101",
+            "id": "cc7740c342f11928",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "AGENTS.md",
-                "followCursor": false,
+                "file": "幻境的彼方/大纲/卷/第1卷 冰封初醒.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
                 "showSearch": false,
-                "searchQuery": ""
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               },
-              "icon": "lucide-list",
-              "title": "AGENTS 的大纲"
+              "icon": "links-coming-in",
+              "title": "第1卷 冰封初醒 的反向链接列表"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 355.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "graph:查看关系图谱": false,
+      "switcher:打开快速切换": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
-      "switcher:打开快速切换": false
+      "bases:新建数据库": false
     }
   },
-  "active": "7861f662867d3b2d",
+  "active": "3eb997983a7d0b8f",
   "lastOpenFiles": [
-    "CLAUDE.md",
-    "AGENTS.md",
-    "_system/_temp/README.md",
-    "rules/output.md",
-    "rules/operations.md",
-    "rules/core.md",
-    "rules/hub.md",
-    "_system/_templates/CLAUDE.md",
-    "_system/_templates/wiki/log.md",
-    "_system/_templates/wiki/index.md",
-    "_system/_templates/wiki",
-    "_system/_templates/rules/local.md",
-    "_system/_templates/rules",
-    "_system/_templates/raw",
-    "_system/_backups/backup_2025-05-16_163000/README.md",
-    "_system/_backups/backup_2025-05-16_163000",
-    "_system/_hub-health/README.md",
-    "_system/_trash/README.md",
-    "_system/_templates",
-    "_system/_hub-health",
-    "_system/_temp",
-    "_system/_backups",
-    "_system/_trash",
-    "_system",
-    "wiki/小说知识库/wiki/index.md",
-    "_hub-log.md",
-    "wiki/编程/wiki/concepts/Python编程入门指南.md",
-    "_backups/backup_2025-05-16_163000/README.md",
-    "wiki/编程/CLAUDE.md",
-    "wiki/心理学/CLAUDE.md",
-    "wiki/小说知识库/wiki/concepts/编程化小说创作.md",
-    "raw/README.md",
-    "output/README.md",
-    "output/我的小说项目/README.md",
-    "wiki/心理学/wiki/index.md",
-    "wiki/心理学/wiki/log.md"
+    "wiki/编程/raw/Geometry nodes.md",
+    "README.md",
+    "README.MD",
+    "README.txt",
+    "wiki/小说知识库/raw/小说创作方法论.md",
+    "raw/201511复盘每日复盘模板.md",
+    "wiki/电商知识库/raw/鱼商品上架上新与节奏精细操作手册.md",
+    "wiki/心理学/raw/标题信任建立策略.md",
+    "wiki/心理学/raw/性格特征锚点.md",
+    "wiki/电商知识库/raw/怀旧营销.md",
+    "wiki/心理学/raw/市场需求上限.md",
+    "wiki/电商知识库/raw/商品发布地选择策略.md",
+    "wiki/心理学/raw/压力揭示本性选择定义人格.md",
+    "wiki/编程/raw/什么是优秀的Prompt_Engineering.md",
+    "wiki/电商知识库/raw/万能商品文案模板.md",
+    "wiki/编程/raw/White water Source.md",
+    "wiki/编程/raw/Vortex Force  Attributes.md",
+    "wiki/编程/raw/Volume.md",
+    "wiki/编程/raw/Volume VOP.md",
+    "wiki/编程/raw/Volume to texture.md",
+    "wiki/编程/raw/Volume Surface.md",
+    "wiki/编程/raw/Volume Splice.md",
+    "wiki/编程/raw/Volume Slice.md",
+    "wiki/编程/raw/Volume SDF.md",
+    "wiki/编程/raw/Volume Rasterize.md",
+    "wiki/编程/raw/Volume Rasterize Curve.md",
+    "wiki/编程/raw/Volume Noise Vector.md",
+    "wiki/电商知识库/wiki/comparisons",
+    "wiki/电商知识库/wiki/entities",
+    "wiki/电商知识库/wiki/concepts",
+    "wiki/电商知识库/wiki",
+    "wiki/电商知识库/rules",
+    "wiki/电商知识库/raw",
+    "wiki/电商知识库",
+    "verify_fix.py",
+    "fix_conflict_tag.py",
+    "raw/写小说/deepseek文档/DeepSeek提示词大全/大模型通用/2、专业升级版/Hh-033-【新】AI指令合集/利用记忆宫殿背课文【指令+教程】/5.jpg",
+    "raw/写小说/deepseek文档/DeepSeek提示词大全/大模型通用/2、专业升级版/Hh-033-【新】AI指令合集/利用记忆宫殿背课文【指令+教程】/4.jpg",
+    "raw/写小说/deepseek文档/DeepSeek提示词大全/大模型通用/2、专业升级版/Hh-033-【新】AI指令合集/利用记忆宫殿背课文【指令+教程】/3.jpg",
+    "raw/写小说/deepseek文档/DeepSeek提示词大全/大模型通用/2、专业升级版/Hh-033-【新】AI指令合集/利用记忆宫殿背课文【指令+教程】/2.jpg",
+    "raw/写小说/deepseek文档/DeepSeek提示词大全/大模型通用/2、专业升级版/Hh-033-【新】AI指令合集/利用记忆宫殿背课文【指令+教程】/1.jpg",
+    "幻境的彼方/幻境的彼方.canvas",
+    "幻境的彼方/大纲/大纲.canvas",
+    "小说.canvas",
+    "novel-ai-assistant/icon.svg",
+    "novel-ai-assistant/icon.png"
   ]
 }

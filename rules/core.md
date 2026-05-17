@@ -9,6 +9,14 @@
 - 无法匹配 <30%：标记 pending
 - 多匹配（≤3个）：询问用户选择；>3个：移至 `_system/_trash/pending_multi/`
 
+## 分拣流程（sort-raw 完整步骤）
+1. 扫描大库 `raw/` 目录
+2. 对每个文件执行**分拣预处理**（见 operations.md）
+3. 分析文件内容（标题、标签、正文关键词），匹配子库
+4. 按匹配策略处理（直接移动/询问用户/标记 pending）
+5. 移动文件到 `wiki/[子库]/raw/`
+6. 更新全局索引和子库索引
+
 ## 禁止行为清单（执行 AI）
 - ❌ 修改 `rules/`、`.claude.json`、`_system/_templates/`、任何子库的 `.claude.json` 或 `rules/local.md`
 - ❌ 修改子库 `raw/` 内容（仅可改 YAML status 字段）

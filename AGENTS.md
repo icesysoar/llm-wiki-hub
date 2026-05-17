@@ -1,6 +1,6 @@
 # AI 行为准则
 
-> LLM Wiki Hub v4.2
+> LLM Wiki Hub v4.2.1
 
 ---
 

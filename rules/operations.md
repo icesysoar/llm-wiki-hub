@@ -6,6 +6,14 @@
 - 计算 MD5 存入 `content_hash`
 - 大文件按 `large_file_action` 处理（extract_text/summarize/reject）
 
+## 分拣预处理（sort-raw 前置）
+分拣前对每个文件执行以下预处理：
+1. **清理旧 YAML 字段**：移除 area、topic、related、sources、updated、aliases、cover 等非规范字段
+2. **清除正文双链**：将 `[[xxx]]` 替换为 `xxx`，`[[xxx|yyy]]` 替换为 `yyy`
+3. **标准化 YAML**：确保只保留 v4.2 规范字段（type、title、tags、status、source_type、created、content_hash）
+4. **补充缺失字段**：status（默认 pending）、source_type（默认 user_upload）、content_hash（正文 MD5）
+5. **标准化 type**：source/resource → raw
+
 ## 编译
 **五步分析（必须执行）**：提炼、质疑、推理、关联、矛盾检测
 **拆分阈值**：行数>300 或 链接>8 或 结论>6 → 自动拆分，建立父子页

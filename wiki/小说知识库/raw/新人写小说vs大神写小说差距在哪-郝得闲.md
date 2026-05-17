@@ -1,18 +1,9 @@
 ---
-title: 新人写小说vs大神写小说差距在哪
 type: guide
-area: 小说
-topic: 练习方法
+title: 新人写小说vs大神写小说差距在哪
 status: compiled
-compile_date: 2026-05-14
 source_type: video
-source: Bilibili - 郝得闲
-quality_score: 85
-importance: high
 created: 2025-12-15
-sorted: true
-target: 小说知识库
-sorted_date: 2026-05-16
 content_hash: "4e6a4967173a"
 ---
 
